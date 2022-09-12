@@ -13,5 +13,7 @@ $(document).ready(function () {
     console.log("user clicked dogeTwo 2");
         $("#outputMsg").text("Congrats!!!!!!!! your WOW is WOWing me!");
     $("#outputDiv").toggle();
+      var div = $("div");
+      div.animate({fontSize: '3em'}, "slow");
   });
 });
